@@ -47,10 +47,12 @@ def ispal(num):
 	else :
 		return False
 
-#now need to figure out is a number is a factor of two three digit numbers
+# now need to figure out is a number is a factor of two three digit numbers
 # can' think of anthing besides a nested for loop
 
 
+# go through all possible combination of 3 digit numbers and then see if 
+# they are a palindrome, if they are see if largest so far
 def largest():
 	maxpal = 0
 	for a in range(999, 99, -1):
@@ -64,7 +66,7 @@ def largest():
 
 
 largest()
-
+# Ans = 906609
 
 
 
